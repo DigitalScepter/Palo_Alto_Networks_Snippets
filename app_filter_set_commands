@@ -1,0 +1,23 @@
+set application-filter "Filter - Proxies" subcategory proxy
+set application-filter "Filter - Games" subcategory gaming
+set application-filter "Filter - P2P" subcategory file-sharing
+set application-filter "Filter - P2P" technology peer-to-peer
+set application-filter "Filter - Social Media" category collaboration
+set application-filter "Filter - Social Media" subcategory social-networking
+set application-filter "Filter - Social Media" risk [ 1 2 3 4 ]
+set application-filter "Filter - Audio Video" subcategory [ audio-streaming photo-video ]
+set application-filter "Filter - Collaboration" category collaboration
+set application-filter "Filter - Collaboration" subcategory [ email instant-messaging social-business voip-video web-posting ]
+set application-filter "Filter - Collaboration" risk [ 1 2 3 4 ]
+set application-filter "Filter - Productivity" subcategory [ general-business internet-conferencing office-programs social-business ]
+set application-filter "Filter - General Internet" category general-internet
+set application-filter "Filter - General Internet" subcategory [ file-sharing internet-utility ]
+set application-filter "Filter - General Internet" technology [ browser-based client-server peer-to-peer ]
+set application-filter "Filter - General Internet" risk [ 1 2 3 4 ]
+set application-filter "Filter - Updates" subcategory software-update
+set application-filter "Filter - Business Tools" category business-systems
+set application-filter "Filter - Business Tools" subcategory [ auth-service erp-crm management marketing software-development ]
+set application-filter "Filter - Business Tools" risk [ 1 2 3 ]
+set application-filter "Filter - Instant Messaging" subcategory instant-messaging
+set application-filter "Filter - Remote Access" subcategory remote-access
+set application-filter "Filter - Remote Access" risk [ 1 2 3 4 ]
